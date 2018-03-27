@@ -8,6 +8,7 @@ GPIO.setmode(GPIO.BCM)
 GPIO.setup(4, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 GPIO.setup(27, GPIO.OUT, initial=GPIO.LOW)
 GPIO.add_event_detect(4, GPIO.BOTH)
+
 count = 0
 
 def insert_count():
