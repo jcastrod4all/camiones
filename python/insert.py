@@ -2,7 +2,7 @@ from mysql.connector import MySQLConnection, Error
 from python_mysql_dbconfig import read_db_config
 from time import gmtime, strftime
 
- def insert_count():
+def insert_count():
   dateTime = strftime("%Y-%m-%d %H:%M:%S", gmtime())
   query = "INSERT INTO count_passengers (reg_date) " \
           "VALUES('" + dateTime + "')"
