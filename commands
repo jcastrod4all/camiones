@@ -1,0 +1,2 @@
+##Solve mysql connector error.
+sudo pip install mysql-connector-python-rf
